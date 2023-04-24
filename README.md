@@ -1,2 +1,2 @@
 # str_split
-Library string split/
+Library string split.

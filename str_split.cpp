@@ -1,7 +1,10 @@
+#include "str_split.h"
+
+
 /*
 std::string split implementation by using delimeter as an another string
 */
-std::vector<std::string> split(std::string stringToBeSplitted, std::string delimeter)
+std::vector<std::string> str_split(std::string stringToBeSplitted, std::string delimeter)
 {
      std::vector<std::string> splittedString;
      int startIndex = 0;
